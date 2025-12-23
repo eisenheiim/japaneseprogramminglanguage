@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "hw5.py",
+            "console": "integratedTerminal",
+            
+           "args": ["-compile", "inputs/input-6.txt", "obj2/obj-6.obj"]
+           //"args": ["-execute","obj2/obj-149.obj","out2/output-149.txt"]
+        }
+    ]
+}
+
