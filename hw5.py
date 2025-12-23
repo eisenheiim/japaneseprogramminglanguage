@@ -353,7 +353,7 @@ if sys.argv[1]=="-compile":
                 elif e.lower() in strvariables or e.lower() in intvariable:
                     pass
                 elif e.lower() in keywords or e==".":
-                    pass
+                    pass 
                 else: raise Exception(f"Compile error {line_no=}")
             line=inputfile.readline()
             line_no+=1
